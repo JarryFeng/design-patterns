@@ -10,5 +10,9 @@ public class FactoryMethodTest {
         DellFactory dellFactory = new DellFactory();
         Computor computor = dellFactory.create();
         computor.open();
+
+        LenovoFactory lenovoFactory = new LenovoFactory();
+        Computor computor2 = lenovoFactory.create();
+        computor2.open();
     }
 }
