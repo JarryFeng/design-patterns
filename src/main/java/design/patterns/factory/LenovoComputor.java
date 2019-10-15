@@ -1,7 +1,7 @@
 package design.patterns.factory;
 
 /**
- * 联想计算机
+ * 实际产品-联想计算机
  */
 public class LenovoComputor implements Computor {
     public void open() {

@@ -4,7 +4,7 @@ import design.patterns.factory.Computor;
 import design.patterns.factory.DellComputor;
 
 /**
- * 戴尔工厂
+ * 工厂-戴尔工厂
  */
 public class DellFactory implements FactoryMethod {
     @Override
